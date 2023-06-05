@@ -568,7 +568,7 @@ progress {
     color: #a52a85;
     width: 100%;
     padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .5rem);
     margin-right: auto;
     margin-left: auto
 }
@@ -7448,7 +7448,7 @@ textarea.form-control-lg {
 
 .px-0 {
     padding-right: 0 !important;
-    padding-left: 0 !important
+    padding-left: 0 !important;
 }
 
 .px-1 {
@@ -7503,7 +7503,7 @@ textarea.form-control-lg {
 
 .py-5 {
     padding-top: 3rem !important;
-    padding-bottom: 3rem !important
+    padding-bottom: 3rem !important;
 }
 
 .pt-0 {
