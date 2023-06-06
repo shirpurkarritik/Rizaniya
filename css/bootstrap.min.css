@@ -32,7 +32,7 @@
 }
 
 *,*::before,*::after {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -68,6 +68,7 @@ hr:not([size]) {
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
     margin-top: 0;
     margin-bottom: .5rem;
+    margin-left: -0.5rem;
     font-family: "Nunito",sans-serif;
     font-weight: 800;
     line-height: 1.2;
@@ -170,7 +171,7 @@ b,strong {
 }
 
 small,.small {
-    font-size: .875em
+    font-size: .875em;
 }
 
 mark,.mark {
@@ -803,11 +804,11 @@ progress {
 }
 
 .g-4,.gx-4 {
-    --bs-gutter-x: 1.5rem
+    --bs-gutter-x: 1.5rem;
 }
 
 .g-4,.gy-4 {
-    --bs-gutter-y: 1.5rem
+    --bs-gutter-y: 1.5rem;
 }
 
 .g-5,.gx-5 {
@@ -6731,7 +6732,7 @@ textarea.form-control-lg {
 }
 
 .border-bottom {
-    border-bottom: 1px solid #dee2e6 !important
+    border-bottom: 1px solid #dee2e6 !important;
 }
 
 .border-bottom-0 {
@@ -6815,7 +6816,7 @@ textarea.form-control-lg {
 }
 
 .w-100 {
-    width: 100% !important
+    width: 100% !important;
 }
 
 .w-auto {
@@ -6875,7 +6876,7 @@ textarea.form-control-lg {
 }
 
 .flex-column {
-    flex-direction: column !important
+    flex-direction: column !important;
 }
 
 .flex-row-reverse {
@@ -6951,7 +6952,7 @@ textarea.form-control-lg {
 }
 
 .justify-content-between {
-    justify-content: space-between !important
+    justify-content: space-between !important;
 }
 
 .justify-content-around {
@@ -7563,7 +7564,7 @@ textarea.form-control-lg {
 }
 
 .pb-2 {
-    padding-bottom: .5rem !important
+    padding-bottom: .5rem !important;
 }
 
 .pb-3 {
@@ -7595,7 +7596,7 @@ textarea.form-control-lg {
 }
 
 .ps-4 {
-    padding-left: 1.5rem !important
+    padding-left: 1.1rem !important;
 }
 
 .ps-5 {
@@ -7675,7 +7676,7 @@ textarea.form-control-lg {
 }
 
 .text-start {
-    text-align: left !important
+    text-align: left !important;
 }
 
 .text-end {
@@ -7683,7 +7684,7 @@ textarea.form-control-lg {
 }
 
 .text-center {
-    text-align: center !important
+    text-align: center !important;
 }
 
 .text-decoration-none {
